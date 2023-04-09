@@ -23,12 +23,12 @@
     <title>Daniel Castro's Portfolio</title>
 </head>
 
-<body>
+<body class="text-center">
 
     <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-0" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary bg-dark border-0" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="/images/logo.svg" alt="logo" width="30" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -44,10 +44,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <a href="#home"><i class="bi bi-house-door-fill" style="font-size: 1.7rem; color: whitesmoke;"></i></a>
+                        <a href="#home"><i class="bi bi-house-door-fill"
+                                style="font-size: 1.7rem; color: whitesmoke;"></i></a>
                     </form>
                 </div>
             </div>
@@ -55,28 +59,74 @@
     </header>
 
     <main>
-        <section class="hero container-fluid m-4" role="banner">
-            <div class="container-fluid">
+        <section class="hero container-fluid" role="banner">
+            <div class="container-fluid my-5">
                 <h1>DANIEL CASTRO'S PORTFOLIO</h1>
                 <p>Empowering your digital sports presence with cutting-edge solutions</p>
-                <button type="button" class="btn btn-primary btn-lg">Get to know me!</button>
-                </div>
+                <button type="button" class="btn btn-primary btn-lg"> <a class="text-light"
+                        href="about.html">Get to know me!</a></button>
             </div>
         </section>
 
         <section>
             <div class="container m-4">
                 <div class="row">
-                    <div class="col-xl">
+                    <div class="col-md">
                         <img class="img-fluid" src="images/daniel-castro.jpg" alt="Portrait of Daniel Castro">
                     </div>
 
                     <div class="col-xl">
-                        <h2 class="display-2 mt-4">ABOUT ME</h2>
-                        <p>Welcome to my portfolio website!  Daniel specializes in providing innovative solutions for businesses looking to enhance their online presence and reach a wider audience through digital channels.</p>
+                        <h2 class="display-2 mt-4 text-center">ABOUT ME</h2>
+                        <p class="text-center">Welcome to my portfolio website! Daniel specializes in providing innovative solutions for
+                            businesses looking to enhance their online presence and reach a wider audience through
+                            digital channels.</p>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="services"></section>
+        <h2 class="display-2 m-4 text-center" id="services">SERVICES</h2>
+        <div class="row">
+        <div class="col-xl">
+            <div class="card" style="width: 16rem;">
+                <img src="images/baseball-player.jpg" class="card-img-top img-fluid border-0"
+                    alt="Baseball Player Portrait">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sports Videography</h5>
+                    <p class="card-text">Professional and high-quality video production services that can help sport
+                        teams to create engaging and effective video content.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl">
+            <div class="card" style="width: 16rem;">
+                <img src="images/church.jpg" class="card-img-top img-fluid border-0" alt="church in a autumn forest">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Photography</h5>
+                    <p class="card-text">Capturing the moments that matter most with professional photography services
+                        for sports, landscapes, and portraits.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 16rem;">
+                <img src="images/programming.jpg" class="card-img-top img-fluid border-0"
+                    alt="person typing with cellphone and computer">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Wev Development</h5>
+                    <p class="card-text">With experience in HTML & CSS, Daniel can create a custom website to suit your
+                        needs. From simple one-page sites to complex e-commerce solutions.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <section class="text-center container-fluid">
+            <h2 class="display-3 m-4">PORTFOLIO</h2>
         </section>
     </main>
 
