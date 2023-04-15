@@ -26,6 +26,8 @@
 <body class="text-center">
 
     <header>
+
+        <!-- HERE GOES THE NAVIGATION BAR -->
         <nav class="navbar navbar-expand-sm bg-body-tertiary bg-dark border-0" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -58,77 +60,171 @@
         </nav>
     </header>
 
+    <!-- **************HERO BANNER***************** -->
+
     <main>
         <section class="hero container-fluid" role="banner">
             <div class="container-fluid my-5">
-                <h1>DANIEL CASTRO'S PORTFOLIO</h1>
+                <h1 id="#home">DANIEL CASTRO'S PORTFOLIO</h1>
                 <p>Empowering your digital sports presence with cutting-edge solutions</p>
-                <button type="button" class="btn btn-primary btn-lg"> <a class="text-light"
-                        href="about.html">Get to know me!</a></button>
+                <button type="button" class="btn btn-primary btn-lg"> <a class="text-light" href="about.html">Get to
+                        know me!</a></button>
             </div>
         </section>
 
+        <!-- **************PORTRAIT & ABOUT ME***************** -->
+
         <section>
-            <div class="container m-4">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-sm">
                         <img class="img-fluid" src="images/daniel-castro.jpg" alt="Portrait of Daniel Castro">
                     </div>
 
                     <div class="col-xl">
-                        <h2 class="display-2 mt-4 text-center">ABOUT ME</h2>
-                        <p class="text-center">Welcome to my portfolio website! Daniel specializes in providing innovative solutions for
-                            businesses looking to enhance their online presence and reach a wider audience through
-                            digital channels.</p>
+                        <h2 class="display-2 mt-4">ABOUT ME</h2>
+                        <p class="text-center"> I'm  passionate about helping businesses of all sizes improve their online presence and expand
+                            their reach through innovative digital solutions. In today's fast-paced digital world, it's
+                            more important than ever for businesses to have a strong online presence that resonates with
+                            their target audience.
+
+                            I'm dedicated to staying on top of
+                            the latest trends and technologies in the digital space, so that I can provide my clients with
+                            the most effective solutions possible. Plus, I understand that every business is unique,
+                            which is why I take a personalized approach to every project I work on. I'll take the time
+                            to understand your specific goals and challenges, and work with you to develop a customized
+                            plan that meets your needs.</p>
+    
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="services"></section>
-        <h2 class="display-2 m-4 text-center" id="services">SERVICES</h2>
-        <div class="row">
-        <div class="col-xl">
-            <div class="card" style="width: 16rem;">
-                <img src="images/baseball-player.jpg" class="card-img-top img-fluid border-0"
-                    alt="Baseball Player Portrait">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Sports Videography</h5>
-                    <p class="card-text">Professional and high-quality video production services that can help sport
-                        teams to create engaging and effective video content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+        <!-- ************** SERVICES CARDS***************** -->
+
+        <section class="services">
+            <h2 class="display-2 my-5" id="services">SERVICES</h2>
+            <div class="row mx-0">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/kid-snowboarding.jpg" class="card-img-top img-thumbnail border-0"
+                            alt="Baseball Player Portrait">
+                        <div class="card-body">
+                            <h5 class="card-title">Sports Videography</h5>
+                            <p class="card-text">Professional and high-quality video production services that can help
+                                sport
+                                teams to create engaging and effective video content.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/church.jpg" class="card-img-top img-thumbnail border-0"
+                            alt="church in a autumn forest">
+                        <div class="card-body">
+                            <h5 class="card-title">Photography</h5>
+                            <p class="card-text">Capturing the moments that matter most with professional photography
+                                services
+                                for sports, landscapes, and portraits.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/programming.jpg" class="card-img-top img-thumbnail border-0"
+                            alt="person typing with cellphone and computer">
+                        <div class="card-body">
+                            <h5 class="card-title">Wev Development</h5>
+                            <p class="card-text">We create custom websites to suit your needs. From simple one-page
+                                sites to complex e-commerce solutions.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl">
-            <div class="card" style="width: 16rem;">
-                <img src="images/church.jpg" class="card-img-top img-fluid border-0" alt="church in a autumn forest">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Photography</h5>
-                    <p class="card-text">Capturing the moments that matter most with professional photography services
-                        for sports, landscapes, and portraits.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md">
-            <div class="card" style="width: 16rem;">
-                <img src="images/programming.jpg" class="card-img-top img-fluid border-0"
-                    alt="person typing with cellphone and computer">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Wev Development</h5>
-                    <p class="card-text">With experience in HTML & CSS, Daniel can create a custom website to suit your
-                        needs. From simple one-page sites to complex e-commerce solutions.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-        </div>
+        </section>
+
+        <!-- ************** THIS IS THE PORTFOLIO***************** -->
 
         <section class="text-center container-fluid">
             <h2 class="display-3 m-4">PORTFOLIO</h2>
+            <div class="row m-2 gap-2">
+                <div class="col-xl"><img src="images/blue-futuristic-computer.jpg"
+                        class="card-img-top img-fluid border-0" alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/jack-grealish.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/basket-player.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/surfer.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+            </div>
+            <div class="row m-4 gap-3">
+                <div class="col-xl"><img src="images/waterfall.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/mountain-river.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/night-street.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <div class="col-xl"><img src="images/church.jpg" class="card-img-top img-fluid border-0"
+                        alt="person typing with cellphone and computer"></div>
+                <button type="button" class="btn btn-primary btn-lg">CHECK MORE</button>
+            </div>
         </section>
     </main>
+
+
+    <!-- HERO GOES THE FOOTER -->
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <div class="row d-flex justify-content-center">
+                <div class="col-4-auto">
+                    <p class="pt-2">
+                        <strong>Sign up for our newsletter</strong>
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                        <input type="email" id="form5Example29" class="form-control" />
+                        <label class="form-label" for="form5Example29">Email address</label>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                        Subscribe
+                    </button>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!" class="text-white">Home</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">About</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">Contact</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">Services</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright - Daniel Castro
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
     <!-- Add Boostrap JavaScript -->
