@@ -28,8 +28,8 @@
     <header>
 
         <!-- HERE GOES THE NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-sm bg-body-tertiary bg-dark border-0" data-bs-theme="dark">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-0" data-bs-theme="dark">
+            <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="/images/logo.svg" alt="logo" width="30" height="24">
                 </a>
@@ -38,23 +38,22 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#services">Services</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <a href="#home"><i class="bi bi-house-door-fill"
-                                style="font-size: 1.7rem; color: whitesmoke;"></i></a>
-                    </form>
+                        <a class="nav-link" href="#home"><i class="bi bi-house-door-fill" style="font-size: 1.7rem; color: whitesmoke;"></i></a>
                 </div>
             </div>
         </nav>
@@ -63,49 +62,43 @@
     <!-- **************HERO BANNER***************** -->
 
     <main>
-        <section class="hero container-fluid" role="banner">
-            <div class="container-fluid my-5">
+        <section class="hero container-fluid container-fluid mb-3 bg-image" style="background-image: url('images/football-player.jpg'); 
+        height: 70vh; background-size:cover;" role="banner">
+            <div class="row align-middle d-inline text-light">
+                <div class="col-12 mt-5">
                 <h1 id="#home">DANIEL CASTRO'S PORTFOLIO</h1>
                 <p>Empowering your digital sports presence with cutting-edge solutions</p>
-                <button type="button" class="btn btn-primary btn-lg"> <a class="text-light" href="about.html">Get to
-                        know me!</a></button>
-            </div>
+                <button type="button" class="btn btn-primary btn-lg mt-4" href=/about.html>Get to know me!</button>
+                </div>
+            </div>    
         </section>
+
 
         <!-- **************PORTRAIT & ABOUT ME***************** -->
 
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+        <section class="container mt-5">
+                <div class="row container">
+                    <div class="col-lg-6">
                         <img class="img-fluid" src="images/daniel-castro.jpg" alt="Portrait of Daniel Castro">
                     </div>
 
-                    <div class="col-xl">
-                        <h2 class="display-2 mt-4">ABOUT ME</h2>
-                        <p class="text-center"> I'm passionate about helping businesses of all sizes improve their
-                            online presence and expand
-                            their reach through innovative digital solutions. In today's fast-paced digital world, it's
-                            more important than ever for businesses to have a strong online presence that resonates with
-                            their target audience.
-
-                            I'm dedicated to staying on top of
-                            the latest trends and technologies in the digital space, so that I can provide my clients
-                            with
-                            the most effective solutions possible. Plus, I understand that every business is unique,
-                            which is why I take a personalized approach to every project I work on. I'll take the time
-                            to understand your specific goals and challenges, and work with you to develop a customized
-                            plan that meets your needs.</p>
-
+                    <div class="col-sm order-md-last">
+                        <div class="p-3 bg-success-subtle text-emphasis-success">
+                        <h2 id="#about" class="display-2 mt-4">ABOUT ME</h2>
+                        <p class="text-center text-wrap fs-4"> I'm passionate about helping businesses of all sizes improve their online presence and expand
+                        their reach through innovative digital solutions. 
+                        I'm dedicated to staying on top of
+                        the latest trends and technologies in the digital space. Plus, I understand that every business is unique, which is why I take a personalized approach to every project I work on. I'll take the time
+                        to understand your specific goals and challenges, and work with you to develop a customized plan that meets your needs.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <!-- ************** SERVICES CARDS***************** -->
 
         <section class="services">
-            <h2 class="display-2 my-5" id="services">SERVICES</h2>
+            <h2 class="display-2 mt-5" id="services">SERVICES</h2>
             <div class="row mx-0">
                 <div class="col-md-4">
                     <div class="card">
@@ -151,16 +144,14 @@
         <!-- ************** THIS IS THE PORTFOLIO***************** -->
 
         <section class="text-center container-fluid">
-            <h2 class="display-3 m-4">PORTFOLIO</h2>
+            <h2 class="display-3 m-4" id="portfolio">PORTFOLIO</h2>
             <div class="row my-5 mx-auto gap-2">
                 <div class="col-lg"><img src="images/blue-futuristic-computer.jpg"
-                        class="card-img-top img-fluid border-0" alt="person typing with cellphone and computer"></div>
-                <div class="col-lg"><img src="images/jack-grealish.jpg" class="card-img-top img-fluid border-0"
-                        alt="person typing with cellphone and computer"></div>
-                <div class="col-lg"><img src="images/basket-player.jpg" class="card-img-top img-fluid border-0"
-                        alt="person typing with cellphone and computer"></div>
+                        class="card-img-top img-fluid border-0" alt="blue futuristic computer"></div>
+                <div class="col-lg"><img src="images/jack-grealish.jpg" class="card-img-top img-fluid border-0" alt="Image of Jack Grealish playing soccer"></div>
+                <div class="col-lg"><img src="images/basket-player.jpg" class="card-img-top img-fluid border-0" alt="Portrait of basketball player"></div>
                 <div class="col-lg"><img src="images/surfer.jpg" class="card-img-top img-fluid border-0"
-                        alt="person typing with cellphone and computer"></div>
+                        alt="Person surfing a blue ocean wave"></div>
             </div>
             <div class="row my-5 mx-auto gap-2">
                 <div class="col-lg"><img src="images/waterfall.jpg" class="card-img-top img-fluid border-0"
@@ -173,8 +164,8 @@
                         alt="person typing with cellphone and computer"></div>
             </div>
 
-            <div class="row my-4 mx-auto container">
-                <div class="col-xl"></div>
+            <div class="row my-4 mx-auto">
+                <div class="col-sm-12"></div>
                 <button type="button" class="btn btn-primary btn-lg">CHECK MORE <i class="bi bi-instagram"></i></button>
             </div>
         </section>
@@ -183,24 +174,24 @@
 
     <!-- HERO GOES THE FOOTER -->
     <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
+        <div class="container p-4">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled fs-4">
                         <li>
-                            <a href="#!" class="text-white">Home</a>
+                            <a href="#!" class="text-white link-underline link-underline-opacity-0">Home</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">About</a>
+                            <a href="#!" class="text-white link-underline link-underline-opacity-0">About</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Contact</a>
+                            <a href="#!" class="text-white link-underline link-underline-opacity-0">Contact</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Services</a>
+                            <a href="#!" class="text-white link-underline link-underline-opacity-0">Services</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Terms & Conditions</a>
+                            <a href="#!" class="text-white link-underline link-underline-opacity-0">Terms & Conditions</a>
                         </li>
                     </ul>
                 </div>
@@ -210,12 +201,12 @@
                         <strong>Looking for anything in specific? </strong>
                     </p>
 
-                    <!-- Email input -->
+                    <!-- search input -->
                     <div class="form-outline form-white mb-4">
                         <input type="search" id="search" class="form-control" />
                         <label class="form-label" for="search"></label>
                         <!-- Go button -->
-                        <button type="submit" class=" col-3 btn btn-outline-light mb-4 ">
+                        <button type="submit" class="col-3 btn btn-outline-light mt-4">
                             GO
                         </button>
                     </div>
@@ -223,13 +214,13 @@
 
                 <div class="col-md-4">
                     <a href="https://www.facebook.com/" target="_blank">
-                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-facebook mx-3" style="font-size: 3rem"></i>
                     </a>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <i class="bi bi-instagram"></i></button>
+                        <i class="bi bi-instagram mx-3" style="font-size: 3rem"></i></button>
                     </a>
                     <a href="https://twitter.com/" target="_blank">
-                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-twitter mx-3" style="font-size: 3rem"></i>
                     </a>
                 </div>
             </div>
