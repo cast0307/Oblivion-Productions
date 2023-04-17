@@ -49,7 +49,7 @@ The fonts used for this project were provided by [GoogleFonts](https://fonts.goo
 Bootstrap 5 was used as the framework for this project [Bootstrap](https://getbootstrap.com/)
 
 ### JavaScript Libary 
-A combination of Bootstrap framework and Javascript was used to deliver the required results for the website [JavaScript][https://www.javascript.com/]
+A combination of Bootstrap framework and Javascript was used to deliver the required results for the website [JavaScript](https://www.javascript.com/)
 
 
 
