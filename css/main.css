@@ -18,6 +18,13 @@ font-family: 'Lora', serif; */
     border: #081D3F;
 }
 
+.btn-secondary {
+    background-color: #6B8358;
+    --bs-btn-hover-bg: #B6E88E;
+    --bs-btn-hover-color: var(--color-primary-hex);
+    border: none;
+}
+
 .btn-primary {
         --bs-btn-color: #fff;
         --bs-btn-bg:var(--color-primary-hex);
@@ -65,6 +72,10 @@ p {
 .text-bg-primary {
         color: #fff!important;
     background-color: var(--color-primary-hex)!important;
+}
+
+#about {
+    color: #B6E88E;
 }
 
 
