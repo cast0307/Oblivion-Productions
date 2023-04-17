@@ -1,1 +1,58 @@
+/* GOOGLE FONTS
+font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Lora', serif; */
 
+
+:root {
+    --bs-tertiary-bg-rgb: 8, 29,63;
+    --bs-emphasis-color-rgb: 120, 194, 219;
+    --bs-link-hover-color-rgb: 120, 194, 219;
+    --bs-dark-rgb: 60, 94, 68;
+    --bs-success-rgb: 182, 232, 142;
+    --color-primary-hex: #081D3F;
+    --bs-success-bg-subtle: #6B8358
+
+}.btn-outline-light {
+    background-color: #081D3F;
+    border: #081D3F;
+}
+
+.btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg:var(--color-primary-hex);
+        --bs-btn-border-color:var(--color-primary-hex);
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #6B8358;
+        --bs-btn-hover-border-color: #6B8358;
+        --bs-btn-focus-shadow-rgb: 49,132,253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #6B8358;
+        --bs-btn-active-border-color: #6B8358;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg:var(--color-primary-hex);
+        --bs-btn-disabled-border-color:var(--color-primary-hex);
+    }
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.display-1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: whitesmoke;
+}
+ .display-2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    color: #081D3F;
+}
+
+
+
+p {
+    font-family: 'Lora', serif;
+}
+
+
+.fit-cover{object-fit:cover}.bs-icon{--bs-icon-size:.75rem;display:flex;flex-shrink:0;justify-content:center;align-items:center;font-size:var(--bs-icon-size);width:calc(var(--bs-icon-size) * 2);height:calc(var(--bs-icon-size) * 2);color:var(--bs-primary)}.bs-icon-xs{--bs-icon-size:1rem;width:calc(var(--bs-icon-size) * 1.5);height:calc(var(--bs-icon-size) * 1.5)}.bs-icon-sm{--bs-icon-size:1rem}.bs-icon-md{--bs-icon-size:1.5rem}.bs-icon-lg{--bs-icon-size:2rem}.bs-icon-xl{--bs-icon-size:2.5rem}.bs-icon.bs-icon-primary{color:var(--bs-white);background:var(--bs-primary)}.bs-icon.bs-icon-primary-light{color:var(--bs-primary);background:rgba(var(--bs-primary-rgb),.2)}.bs-icon.bs-icon-semi-white{color:var(--bs-primary);background:rgba(255,255,255,.5)}.bs-icon.bs-icon-rounded{border-radius:.5rem}.bs-icon.bs-icon-circle{border-radius:50%}
