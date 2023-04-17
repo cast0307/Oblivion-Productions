@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 
     <!-- Bootstrap CSS -->
@@ -20,12 +20,13 @@
 </head>
 
 <body class="text-center">
-    <header>
+
+        <header>
         <!-- HERE GOES THE NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-0" role="navigation">
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-0 py-4" role="navigation">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="/images/logo.svg" id="home" alt="logo" width="30" height="24">
+                    <img src="/images/logo.svg" alt="logo" width="30" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,8 +48,8 @@
                             <a class="nav-link py-2 px-3" href="index.html">Portfolio</a>
                         </li>
                     </ul>
-                    <a class="" href="#home"><i class="bi bi-house-door-fill"
-                            style="font-size: 1.7rem; color: whitesmoke;"></i></a>
+                    <a href="index.html"><i class="bi bi-house-door-fill"
+                        style="font-size: 1.7rem; color: whitesmoke;"></i></a>
                 </div>
             </div>
         </nav>
@@ -64,43 +65,46 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="container"> -->
+        <section class="container">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2 class="display-2 mt-5">LET'S GET IN TOUCHDOWN... <span><i
                                 class="fas fa-football-ball"></i></span></h2>
                 </div>
             </div>
-            <section class="container bg-success-subtle row d-flex justify-content-center mx-auto">
-                <form id="form" class="col-12 col-md-12 col-lg-12 col-xl-12">
+        </section>
+
+            <!-- THIS IS WHERE THE FORM GOES -->
+            <section class="container pt-5 bg-success-subtle rounded-3 row d-flex justify-content-center mx-auto">
+                <form id="form" class="col-12 col-md-12 col-lg-8 col-xl-8">
                     <div class="form-group">
-                        <label class="my-2" for="fullname">Full Name:</label>
-                        <input type="text" class="form-control" id="fullname" placeholder="Enter your full name">
+                        <label class="mt-2 text-bg-primary p-3 rounded-top-1 w-100" for="fullname">Full Name:</label>
+                        <input type="text" class="form-control py-3" id="fullname" placeholder="Enter your full name">
                     </div>
                     <div class="form-group">
-                        <label class="my-2"for="phone">Phone Number:</label>
-                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                        <label class="mt-2 text-bg-primary p-3 rounded-top-1 w-100"for="phone">Phone Number:</label>
+                        <input type="tel" class="form-control py-3" id="phone" placeholder="Enter your phone number">
                     </div>
                     <div class="form-group">
-                        <label class="my-2"for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        <label class="mt-2 text-bg-primary p-3 rounded-top-1 w-100"for="email">Email:</label>
+                        <input type="email" class="form-control py-3" id="email" placeholder="Enter your email">
                     </div>
                     <div class="form-group">
 
                         <!-- This is a dropwdown menu to choose service needed -->
-                        <label class="my-2"for="service">Service:</label>
-                        <select class="form-control" id="service">
+                        <label class="mt-2 text-bg-primary p-3 rounded-top-1 w-100"for="service">Service:</label>
+                        <select class="form-control py-3" id="service">
                             <option>Sports Video</option>
                             <option>Photography</option>
                             <option>Web Development</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label class="my-2"for="comment">Comment:</label>
-                        <textarea class="form-control" id="comment" rows="6"></textarea>
+                        <label class="my-2 text-bg-primary p-3 rounded-top-1 w-100"for="comment">Comment:</label>
+                        <textarea class="form-control py-3" id="comment" rows="6"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary my-5">SEND</button>
+                    <button type="submit" class="btn btn-primary w-25 my-5">SEND</button>
                 </form>
                 </div>
                 </div>
@@ -156,9 +160,7 @@
                 </div>
 
                 <div class="col-md-4 align-content-center">
-                    <p class="p-4 fs-3">
-                    Looking for anything in specific?</p>
-
+                    <p class="p-4 text-primary fs-3 fw-bold"">Looking for anything in specific?</p>
                     <!-- search input -->
                     <div class="form-outline form-white mb-4">
                         <input type="search" id="search" class="form-control text-center" placeholder="Search..." />

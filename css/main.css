@@ -10,7 +10,8 @@ font-family: 'Lora', serif; */
     --bs-dark-rgb: 60, 94, 68;
     --bs-success-rgb: 182, 232, 142;
     --color-primary-hex: #081D3F;
-    --bs-success-bg-subtle: #6B8358
+    --bs-success-bg-subtle: #6B8358;
+    --bs-primary-rgb: 8, 29,63; 
 
 }.btn-outline-light {
     background-color: #081D3F;
@@ -38,6 +39,8 @@ font-family: 'Lora', serif; */
     background-color: whitesmoke;
 }
 
+/* HEADINGS 1 - 2 FONT */
+
 .display-1 {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: whitesmoke;
@@ -48,10 +51,20 @@ font-family: 'Lora', serif; */
     color: #081D3F;
 }
 
-
+/* Fonts for paragraphs */
 
 p {
     font-family: 'Lora', serif;
+}
+
+/* MISSION,VISION,GOAL ICON STYLE */
+.checkmark {
+    font-size: 7rem;
+}
+
+.text-bg-primary {
+        color: #fff!important;
+    background-color: var(--color-primary-hex)!important;
 }
 
 

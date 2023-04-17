@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 
     <!-- Bootstrap CSS -->
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-0 p-4" role="navigation">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="/images/logo.svg" id="home" alt="logo" width="30" height="24">
+                    <img src="/images/logo.svg" alt="logo" width="30" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,19 +36,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-3">
                         <li class="nav-item">
-                            <a class="nav-link py-2 px-3" aria-current="page" href="about.html">About</a>
+                            <a class="nav-link py-2 px-3" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link py-2 px-3" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-2 px-3" href="#services">Services</a>
+                            <a class="nav-link py-2 px-3" href="index.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link py-2 px-3" href="#portfolio">Portfolio</a>
+                            <a class="nav-link py-2 px-3" href="index.html">Portfolio</a>
                         </li>
                     </ul>
-                    <a class="" href="#home"><i class="bi bi-house-door-fill"
+                    <a href="index.html"><i class="bi bi-house-door-fill"
                             style="font-size: 1.7rem; color: whitesmoke;"></i></a>
                 </div>
             </div>
@@ -59,54 +59,55 @@
 
         <!-- **************HERO BANNER***************** -->
 
-        <section class="hero container-fluid mb-3 bg-image d-flex align-items-center py-4" style="background-image: url(images/about-banner.jpg); 
+        <section class="hero container-fluid mb-3 bg-image d-flex align-items-center py-4 mx-auto" style="background-image: url(images/about-banner.jpg); 
         height: 70vh; background-size:cover;" role="banner">
             <div class="row justify-content-center text-light mx-auto">
                 <div class="col-12 col-md-12 col-lg-12 text-center text-wrap">
-                    <h1 class="display-1 mt-4 fw-semibold">ABOUT ME</h1>
+                    <h1 class="display-1 mt-4 fw-semibold" id="about">ABOUT ME</h1>
                 </div>
             </div>
         </section>
 
-        <div class="container">
+        <div class="container col-6 py-5 my-4">
             <h1>WHERE IT ALL BEGAN...</h1>
-        </div>
-        <div class="container">
-            <p>Daniel's love for multimedia started at a young age when he received his first camera. Since then, he
-                has continued to grow and develop his skills, taking an interactive Media Design program at Algonquin
-                College.</p>
+            <div class="container my-4">
+                <p>Daniel's love for multimedia started at a young age when he received his first camera. Since then, he
+                    has continued to grow and develop his skills, taking an interactive Media Design program at
+                    Algonquin
+                    College.</p>
+            </div>
         </div>
 
         <!-- MISSION, VISION, & GOAL CARDS -->
-        <div class="card-group">
-            <div class="card"><img class="card-img-top w-100 d-block">
+        <div class="card-group gap-3 col-lg-8 mx-auto">
+            <div class="card mx-auto col-8 text-bg-primary rounded-0"><img class="card-img-top w-100 d-inline">
                 <div class="card-body">
+                    <div class="checkmark"><i class="bi bi-check2-circle"></i></div>
                     <h4 class="card-title">MISSION</h4>
-                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus
-                        ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button
-                        class="btn btn-primary" type="button">Button</button>
+                    <p class="card-text py-5">To create visually stunning content that connects with people on an
+                        emotional level</p>
                 </div>
             </div>
-            <div class="card"><img class="card-img-top w-100 d-block">
+            <div class="card mx-auto col-8 text-bg-primary rounded-0"><img class="card-img-top w-100 d-inline">
                 <div class="card-body">
+                    <div class="checkmark"><i class="bi bi-check2-circle"></i></div>
                     <h4 class="card-title">GOAL</h4>
-                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus
-                        ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button
-                        class="btn btn-primary" type="button">Button</button>
+                    <p class="card-text py-5">To inspire others to pursue their passions and reach their full potential
+                    </p>
                 </div>
             </div>
-            <div class="card"><img class="card-img-top w-100 d-block">
+            <div class="card mx-auto col-8 text-bg-primary rounded-0"><img class="card-img-top w-50 d-inline">
                 <div class="card-body">
+                    <div class="checkmark"><i class="bi bi-check2-circle"></i></div>
                     <h4 class="card-title">VISION</h4>
-                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus
-                        ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button
-                        class="btn btn-primary" type="button">Button</button>
+                    <p class="card-text py-5">To continue learning and growing, pushing the boundaries of what is
+                        possible.</p>
                 </div>
             </div>
         </div>
 
         <!-- SECTION OF DANIEL CASTRO -->
-        <section class="py-4 py-xl-5">
+        <section class="py-4">
             <div class="container">
                 <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
                     <div class="row g-0">
@@ -120,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img
-                                class="w-100 h-100 fit-cover" src="assets/img/daniel-castro.jpg"></div>
+                                class="w-100 h-100 fit-cover" src="images/daniel-castro-1000.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -202,75 +203,74 @@
                 </div>
             </section>
         </section>
-        
-    <!-- HERO GOES THE FOOTER -->
-    <footer class="bg-dark text-center text-white">
-        <div class="p-4">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-4 mt-4 align-middle">
-                    <ul class="list-unstyled fs-5">
-                        <li class="my-1">
-                            <a href="#home" class="text-white link-underline link-underline-opacity-0">Home</a>
-                        </li>
-                        <li class="my-1">
-                            <a href="about.html" class="text-white link-underline link-underline-opacity-0">About</a>
-                        </li>
-                        <li class="my-1">
-                            <a href="contact.html"
-                                class="text-white link-underline link-underline-opacity-0">Contact</a>
-                        </li>
-                        <li class="my-1">
-                            <a href="#services" class="text-white link-underline link-underline-opacity-0">Services</a>
-                        </li>
-                    </ul>
-                </div>
 
-                <div class="col-md-4 align-content-center">
-                    <p class="pt-2">
-                        <strong>Looking for anything in specific? </strong>
-                    </p>
+        <!-- HERO GOES THE FOOTER -->
+        <footer class="bg-dark text-center text-white">
+            <div class="p-4">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 mt-4 align-middle">
+                        <ul class="list-unstyled fs-5">
+                            <li class="my-1">
+                                <a href="index.html" class="text-white link-underline link-underline-opacity-0">Home</a>
+                            </li>
+                            <li class="my-1">
+                                <a href="about.html"
+                                    class="text-white link-underline link-underline-opacity-0">About</a>
+                            </li>
+                            <li class="my-1">
+                                <a href="contact.html"
+                                    class="text-white link-underline link-underline-opacity-0">Contact</a>
+                            </li>
+                            <li class="my-1">
+                                <a href="index.html"
+                                    class="text-white link-underline link-underline-opacity-0">Services</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <!-- search input -->
-                    <div class="form-outline form-white mb-4">
-                        <input type="search" id="search" class="form-control text-center" placeholder="Search..." />
-                        <label class="form-label" for="search"></label>
-                        <!-- Go button -->
-                        <button type="button" class="col-3 btn btn-outline-light mt-4">
-                            GO
-                        </button>
+                    <div class="col-md-4 align-content-center">
+                        <p class="pt-2 text-primary fs-3 fw-bold">Looking for anything in specific? </p>
+                        <!-- search input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="search" id="search" class="form-control text-center" placeholder="Search..." />
+                            <label class="form-label" for="search"></label>
+                            <!-- Go button -->
+                            <button type="button" class="col-3 btn btn-outline-light mt-4">
+                                GO
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 row align-content-center">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="bi bi-facebook mx-3" style="font-size: 2rem; color: whitesmoke;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="bi bi-instagram mx-3" style="font-size: 2rem; color: whitesmoke;"></i></button>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="bi bi-twitter mx-3" style="font-size: 2rem; color: whitesmoke;"></i>
+                        </a>
                     </div>
                 </div>
-
-                <div class="col-md-4 row align-content-center">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="bi bi-facebook mx-3" style="font-size: 2rem; color: whitesmoke;"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="bi bi-instagram mx-3" style="font-size: 2rem; color: whitesmoke;"></i></button>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank">
-                        <i class="bi bi-twitter mx-3" style="font-size: 2rem; color: whitesmoke;"></i>
-                    </a>
-                </div>
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
+            </div>
+            </div>
+            </div>
 
 
-        <!-- Copyright -->
-        <div class="col mx-4 p-3">
-           <p class="text-success">© 2023 Copyright - Daniel Castro</p>
-        </div>
-        <!-- Copyright -->
-    </footer>
+            <!-- Copyright -->
+            <div class="col mx-4 p-3">
+                <p class="text-success">© 2023 Copyright - Daniel Castro</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
 
 
-    <!-- Boostrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
+        <!-- Boostrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
