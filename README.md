@@ -1,7 +1,7 @@
 # Daniel Castro's Portfolio
 This is the final project for Web Development II
 
-## Project Self-Reflection
+# Project Self-Reflection
 
 ## Process
 During the creation of this project I tried to followed a structured process similar to the own shown in class.
@@ -13,7 +13,7 @@ During the creation of this project I tried to followed a structured process sim
 5. Retouching details with CSS stylesheet
 6. Deploying the portfolio to a web server for public access
 
-### Challenges & Obstacles 
+## Challenges & Obstacles 
 - One of the main challenges I had during this project was spendings lot of time on small details that don't add much value. Given the fact that I am a very perfectionist person, I usually try to leave every detail almost perfect or as close to reality as possible. This makes, that while I try to solve the problem, I waste a lot of time on something not important instead of focusing on more difficult tasks. This is something that I have always struggled with, however moving forward, I will try to focus on the big part of the things first and fix the small details and issues after the rest is done. 
 
 - Another challenge I faced during my development process was the different sizes and resolutions for my images. Despite trying and following previous examples and recordings, I wasn't able to make each of the images work. Moving forward, I will dive deeper into this specific matter and gain more knowledge. 
@@ -24,7 +24,7 @@ During the creation of this project I tried to followed a structured process sim
 - Consulting online resources and documentation to find solutions to specific challenges
 - Iterating and refining my code until I achieved the desired result
 
-## Lessons Learned
+### Lessons Learned
 Creating my web portfolio has been a valuable learning experience. Some of the key lessons I have learned include:
 
 1. The importance of planning and prototyping before starting development
