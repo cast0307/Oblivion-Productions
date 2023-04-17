@@ -2,7 +2,6 @@
 font-family: 'Be Vietnam Pro', sans-serif;
 font-family: 'Lora', serif; */
 
-
 :root {
     --bs-tertiary-bg-rgb: 8, 29,63;
     --bs-emphasis-color-rgb: 120, 194, 219;
@@ -11,9 +10,20 @@ font-family: 'Lora', serif; */
     --bs-success-rgb: 182, 232, 142;
     --color-primary-hex: #081D3F;
     --bs-success-bg-subtle: #6B8358;
-    --bs-primary-rgb: 8, 29,63; 
+    --bs-primary-rgb: 8, 29,63;
+    
+}
 
-}.btn-outline-light {
+/* GENERAL STYLES */
+
+img, object {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.btn-outline-light {
     background-color: #081D3F;
     border: #081D3F;
 }
