@@ -50,13 +50,3 @@ Bootstrap 5 was used as the framework for this project [Bootstrap](https://getbo
 
 ### JavaScript Libary 
 A combination of Bootstrap framework and Javascript was used to deliver the required results for the website [JavaScript](https://www.javascript.com/)
-
-
-
-
-
-
-
-
-
-[def]: https://www.javascript.com/
